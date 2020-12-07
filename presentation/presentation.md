@@ -549,7 +549,7 @@ Show the user a list of the products they own on their account page.
 
 # Resources
 
-- This presentation and the custom module with all the code: TODO GITHUB
+- This presentation and the custom module with all the code: https://github.com/joachim-n/drupalcon-europe-2020-lazy-builders
 - Cache API: https://www.drupal.org/docs/drupal-apis/cache-api
 - Lazy builders: https://www.drupal.org/docs/8/api/render-api/auto-placeholdering
 - Lazy Builders in Drupal 8 - Caching FTW: https://www.qed42.com/blog/lazy-builders-drupal-8-caching-ftw
