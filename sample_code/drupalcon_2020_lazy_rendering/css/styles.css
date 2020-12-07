@@ -1,0 +1,19 @@
+/**
+ * Styles for the mixed caching page.
+ */
+div.letter-block-container {
+  display: flex; /* or inline-flex */
+}
+
+div.letter-block {
+	flex-grow: 1;
+  text-align: center;
+  margin: 1em 2em;
+	border: 2px solid #1b80be;
+  height: 5em;
+}
+
+/* Argh why doesn't this work? */
+div.letter-block span {
+  vertical-align: middle;
+}

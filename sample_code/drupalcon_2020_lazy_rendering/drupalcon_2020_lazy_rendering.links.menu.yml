@@ -1,0 +1,23 @@
+drupalcon_2020_lazy_rendering.lazy_builder.block:
+  title: '1A: Block'
+  route_name: drupalcon_2020_lazy_rendering.lazy_builder.block
+  menu_name: main
+  weight: 10
+
+drupalcon_2020_lazy_rendering.lazy_builder.render_element:
+  title: '1B: Render Element'
+  route_name: drupalcon_2020_lazy_rendering.lazy_builder.render_element
+  menu_name: main
+  weight: 15
+
+drupalcon_2020_lazy_rendering.lazy_builder.placeholder_token:
+  title: '1C: Placeholder token'
+  route_name: drupalcon_2020_lazy_rendering.lazy_builder.placeholder_token
+  menu_name: main
+  weight: 20
+
+drupalcon_2020_lazy_rendering.mixed_caching:
+  title: '2: Mixed caching'
+  route_name: drupalcon_2020_lazy_rendering.mixed_caching
+  menu_name: main
+  weight: 25

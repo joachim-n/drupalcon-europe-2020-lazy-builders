@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Render me this...</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body .remark-slide-content {
+        font-family: 'Droid Serif';
+        font-size: 18px;
+      }
+      body .remark-code {
+        font-size: 16px;
+      }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      h1 {
+        margin: 0.25em 0;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+    </style>
+
+    <!-- <link rel="stylesheet" type="text/css" href="https://sfc-arch.github.io/remark-theme/blue_standard/remark_theme_blue_standard.css"/> -->
+  </head>
+  <body>
+    <script src="library/remark-latest.min.js">
+    </script>
+    <script>
+      var source_url = window.location.href.split("/").slice(0,-2).join("/") + '/presentation/presentation.md';
+      var slideshow = remark.create({
+        sourceUrl: source_url
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+name: 'DrupalCon 2020 lazy rendering sample code'
+type: module
+description: 'Examples for DrupalCon Europe 2020 presentation -- Made with Module Builder!'
+core: 8.x
+core_version_requirement: '^8 || ^9'
+
+config_devel:
+  - block.block.drupalcon2020username

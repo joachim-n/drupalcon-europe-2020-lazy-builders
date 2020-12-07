@@ -1,0 +1,24 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - drupalcon_2020_lazy_rendering
+    - system
+  theme:
+    - bartik
+id: drupalcon2020username
+theme: bartik
+region: content
+weight: -2
+provider: null
+plugin: drupalcon_2020_lazy_rendering_username_block
+settings:
+  id: drupalcon_2020_lazy_rendering_username_block
+  label: 'DrupalCon 2020 Username'
+  provider: drupalcon_2020_lazy_rendering
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: /lazy-builder/block
+    negate: false

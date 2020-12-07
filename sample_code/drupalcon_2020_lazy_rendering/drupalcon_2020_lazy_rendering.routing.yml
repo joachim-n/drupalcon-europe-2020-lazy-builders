@@ -1,0 +1,35 @@
+# Example 1A.
+drupalcon_2020_lazy_rendering.lazy_builder.block:
+  path: /lazy-builder/block
+  defaults:
+    _title: 'Block'
+    _controller: '\Drupal\drupalcon_2020_lazy_rendering\Controller\LazyBuilderBlockController::content'
+  requirements:
+    _access: 'TRUE'
+
+# Example 1B.
+drupalcon_2020_lazy_rendering.lazy_builder.render_element:
+  path: /lazy-builder/render-element
+  defaults:
+    _title: 'Render Element'
+    _controller: '\Drupal\drupalcon_2020_lazy_rendering\Controller\LazyBuilderRenderElementController::content'
+  requirements:
+    _access: 'TRUE'
+
+# Example 1C.
+drupalcon_2020_lazy_rendering.lazy_builder.placeholder_token:
+  path: /lazy-builder/placeholder-token
+  defaults:
+    _title: 'Placeholder token'
+    _controller: '\Drupal\drupalcon_2020_lazy_rendering\Controller\LazyBuilderPlaceholderTokenController::content'
+  requirements:
+    _access: 'TRUE'
+
+# Example 2.
+drupalcon_2020_lazy_rendering.mixed_caching:
+  path: /mixed-caching
+  defaults:
+    _title: 'Mixed caching'
+    _controller: '\Drupal\drupalcon_2020_lazy_rendering\Controller\MixedCachingController::content'
+  requirements:
+    _access: 'TRUE'
