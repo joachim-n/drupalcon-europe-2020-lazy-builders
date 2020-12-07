@@ -4,11 +4,11 @@ class: center, middle
 
 DrupalCon Europe 2020
 
+Source files and sample code at https://github.com/joachim-n/drupalcon-europe-2020-lazy-builders
+
 ---
 
 # About me
-
-TODO - pic!
 
 - Joachim Noreiko
 - http://www.noreiko.com/
