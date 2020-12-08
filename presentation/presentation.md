@@ -155,11 +155,11 @@ This output is unique to each user:
 ```
 
 
-By default, Drupal's dynamic page cache caches pages per-role. So the following can happen:
+Drupal's dynamic page cache caches pages with the default contexts, one of which is 'user.permissions'. So the following can happen:
 
 1. User Alpha visits the site and is shown the page containing the block. The
 whole page is cached.
-2. User Beta visits the same page. They are served the cached page... which contains user *Alpha*'s name.
+2. User Beta visits the same page. They have the same roles as Alpha. They are served the cached page... which contains user *Alpha*'s name.
 
 ---
 
@@ -387,7 +387,7 @@ Here we just inserted the placeholder right into the markup, but it could instea
 
 We're going to show the username as a row of squares, one for each letter.
 
-The current user's name is uncacheable, but each render element that shows a single letter, A-Z, can be cached, since each letter is the same for everyone.
+The current user's name shouldn't be cached, but each render element that shows a single letter, A-Z, can be cached, since each letter is the same for everyone.
 
 ![](../presentation/images/example-2-mixed-caching-plain.png)
 
