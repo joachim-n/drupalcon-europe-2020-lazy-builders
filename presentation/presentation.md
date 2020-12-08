@@ -62,12 +62,6 @@ You can define your own cache tags.
 
 ---
 
-## Lazy builders
-
-Lazy builders allow switching of cache contexts within a page.
-
----
-
 ## Default cache contexts
 
 Every cached render array receives some cache contexts by default. These are defined as a parameter to the service container:
@@ -93,6 +87,12 @@ The Dynamic Page Cache considers the 'user' and 'session' cache contexts as unca
 ```
 
 This setting can be overridden: see `default.services.yml`.
+
+---
+
+## Lazy builders
+
+Lazy builders allow switching of cache contexts within a page.
 
 ---
 
