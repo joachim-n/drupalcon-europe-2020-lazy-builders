@@ -239,7 +239,7 @@ In our page controller `LazyBuilderRenderElementController`:
 
 ```php
   public function content() {
-    // Use a container to wrap the elemet in a DIV.
+    // Use a container to wrap the element in a DIV.
     $build['intro'] = [
       '#type' => 'container',
     ];
