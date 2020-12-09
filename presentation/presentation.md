@@ -92,7 +92,9 @@ This setting can be overridden: see `default.services.yml`.
 
 ## Lazy builders
 
-Lazy builders allow switching of cache contexts within a page.
+Lazy builders defer rendering within cacheable content.
+
+This allows switching of cache contexts within a page.
 
 ---
 
